@@ -1,0 +1,47 @@
+name: puzzle_15
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.9
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  get: ^4.6.6
+  shimmer: ^3.0.0
+  flutter_screenutil: ^5.9.0
+  zoom_tap_animation: ^1.1.0
+  audioplayers: ^6.0.0
+  lottie: ^3.1.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/images/
+     - assets/icons/
+     - assets/fonts/
+     - assets/sound/
+     - assets/lottie/
+  fonts:
+     - family: Dosis
+       fonts:
+         - asset: assets/fonts/dosis/Dosis-Bold.ttf
+         - asset: assets/fonts/dosis/Dosis-ExtraBold.ttf
+         - asset: assets/fonts/dosis/Dosis-ExtraLight.ttf
+         - asset: assets/fonts/dosis/Dosis-Light.ttf
+         - asset: assets/fonts/dosis/Dosis-Medium.ttf
+         - asset: assets/fonts/dosis/Dosis-Regular.ttf
+         - asset: assets/fonts/dosis/Dosis-SemiBold.ttf
+     - family: Jersey
+       fonts:
+         - asset: assets/fonts/jersey/Jersey10-Regular.ttf
