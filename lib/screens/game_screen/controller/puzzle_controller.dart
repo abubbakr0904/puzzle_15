@@ -19,7 +19,7 @@ class PuzzleController extends GetxController {
   RxInt second = 0.obs;
 
   startGame(){
-    // numbers.shuffle();
+    numbers.shuffle();
     gameOver = false;
   }
   changeLocation(int index , BuildContext context){
@@ -58,7 +58,6 @@ class PuzzleController extends GetxController {
 
   void startTimer() async{
     while(gameOver == false){
-      print("maana axir mana $second");
         await Future.delayed(Duration(seconds: 1));
         second = second + 1;
         if(second == 60){
