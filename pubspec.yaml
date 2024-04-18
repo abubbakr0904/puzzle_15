@@ -17,6 +17,8 @@ dependencies:
   zoom_tap_animation: ^1.1.0
   audioplayers: ^6.0.0
   lottie: ^3.1.0
+  rename: ^3.0.2
+  icons_launcher: ^2.1.7
 
 
 
@@ -45,3 +47,10 @@ flutter:
      - family: Jersey
        fonts:
          - asset: assets/fonts/jersey/Jersey10-Regular.ttf
+icons_launcher:
+  image_path: "assets/images/15_photo.jpg"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
