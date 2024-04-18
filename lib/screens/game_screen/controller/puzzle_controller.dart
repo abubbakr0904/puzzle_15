@@ -19,7 +19,7 @@ class PuzzleController extends GetxController {
   RxInt second = 0.obs;
 
   startGame(){
-    // numbers.shuffle();
+    numbers.shuffle();
     gameOver = false;
   }
   changeLocation(int index , BuildContext context){
